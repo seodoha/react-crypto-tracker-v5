@@ -180,7 +180,6 @@ function Coin({}: ICoinProps) {
     const loading = infoLoading || tickersLoading;
     const history = useHistory();
     const backOnclick = () => history.push("/");
-    console.log("확인");
 
     return (
         <Container>
